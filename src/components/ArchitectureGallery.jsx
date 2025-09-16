@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 
 const ArchitectureGallery = () => {
   const architectures = [
-    { id: 1, title: "AWS Infrastructure Design", image: "/public/aws-arch-1.png" },
-    { id: 2, title: "Security & Compliance Architecture", image: "/public/aws-arch-2.png" },
-    { id: 3, title: "Cloud Migration Framework", image: "/public/aws-arch-3.png" }
+    { id: 1, title: "AWS Infrastructure Design", image: "/aws-arch-1.png" },
+    { id: 2, title: "Security & Compliance Architecture", image: "/aws-arch-2.png" },
+    { id: 3, title: "Cloud Migration Framework", image: "/aws-arch-3.png" }
   ]
 
   return (
