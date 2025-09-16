@@ -25,7 +25,7 @@ const Certifications = ({ data }) => {
       name: "AWS Security Specialty", 
       icon: "/aws-security-icon.png",
       description: "Specialized knowledge in securing AWS workloads and architectures",
-      verifyUrl: "https://www.credly.com/earner/earned/badge/your-badge-id"
+      verifyUrl: "https://www.credly.com/badges/7fb0ac81-b278-42d1-be2c-3774d2c0fef5/public_url"
     }
   ]
 
