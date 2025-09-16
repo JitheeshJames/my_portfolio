@@ -7,19 +7,19 @@ const Certifications = ({ data }) => {
       name: "AWS Solutions Architect - Associate",
       icon: "/aws-saa-icon.png",
       description: "Validates ability to design and deploy scalable systems on AWS",
-      verifyUrl: "https://www.credly.com/earner/earned/badge/your-badge-id"
+      verifyUrl: "https://www.credly.com/users/jitheesh-p-j/badges#credly"
     },
     {
       name: "AWS Solutions Architect - Professional",
       icon: "/aws-sap-icon.png", 
       description: "Advanced technical skills and experience in designing distributed systems",
-      verifyUrl: "https://www.credly.com/earner/earned/badge/your-badge-id"
+      verifyUrl: "https://www.credly.com/users/jitheesh-p-j/badges#credly"
     },
     {
       name: "AWS Data Analytics Specialty",
       icon: "/aws-data-icon.png",
       description: "Expertise in using AWS data lakes and analytics services",
-      verifyUrl: "https://www.credly.com/earner/earned/badge/your-badge-id"
+      verifyUrl: "https://www.credly.com/users/jitheesh-p-j/badges#credly"
     },
     {
       name: "AWS Security Specialty", 
