@@ -1,0 +1,84 @@
+{
+  "personal": {
+    "name": "Jitheesh PJ",
+    "title": "Senior DevOps Engineer | AWS Cloud Consultant",
+    "location": "Kottayam, Kerala, India",
+    "email": "jitheeshjames27@gmail.com",
+    "phone": "+91 9846278548",
+    "linkedin": "linkedin.com/in/jitheesh-pj-807518161",
+    "summary": "AWS Cloud Consultant with 7 years of IT experience, specializing in architecting, deploying, and optimizing AWS environments. Expert in cost optimization, security compliance, and advanced troubleshooting. Adept at collaborating with clients and cross-functional teams to deliver scalable, secure, and cost-effective cloud solutions."
+  },
+  "skills": {
+    "cloudPlatforms": ["AWS", "IAM", "EMR", "Redshift", "RDS", "S3", "ECS", "SageMaker", "Lake Formation", "Glue", "Athena", "Step Functions", "Airflow", "OpenSearch", "QuickSight", "Migration", "DMS", "AppFlow"],
+    "devopsTools": ["CI/CD", "Kubernetes", "Docker", "Terraform", "Jenkins", "GitHub Actions", "Ansible"],
+    "security": ["Identity & Access Management", "Network Security", "Vulnerability Fixes", "Backup & Disaster Recovery"],
+    "optimization": ["Cost Optimization", "Performance Tuning", "Operational Excellence"],
+    "architecture": ["Designing scalable AWS solutions", "AWS best practices", "PoC development"]
+  },
+  "projects": [
+    {
+      "title": "AWS Infrastructure Optimization",
+      "description": "Spearheaded cloud cost optimization strategies, achieving significant cost savings while maintaining high availability and performance.",
+      "technologies": ["AWS", "Cost Explorer", "Trusted Advisor", "CloudWatch"],
+      "image": "/public/aws-arch-1.png"
+    },
+    {
+      "title": "Security & Compliance Implementation",
+      "description": "Implemented security best practices, IAM policies, and automated monitoring to ensure compliance with industry standards.",
+      "technologies": ["IAM", "AWS Config", "CloudTrail", "Security Hub"],
+      "image": "/public/aws-arch-2.png"
+    },
+    {
+      "title": "Cloud Migration & Automation",
+      "description": "Designed and developed automated workflows for cloud resource management, improving efficiency and reducing manual intervention.",
+      "technologies": ["DMS", "Lambda", "Step Functions", "Systems Manager"],
+      "image": "/public/aws-arch-3.png"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Saama Technologies",
+      "period": "2023 - Present",
+      "role": "Senior Software Engineer (AWS Cloud Consultant & Administrator)",
+      "responsibilities": [
+        "Spearheaded cloud cost optimization strategies, achieving significant cost savings",
+        "Led incident management and resolution for critical AWS issues, minimizing downtime",
+        "Implemented security best practices, IAM policies, and automated monitoring",
+        "Partnered with clients to design and implement tailored cloud solutions",
+        "Designed and developed Proof of Concepts (PoCs) for cloud-based innovations",
+        "Worked closely with DevOps, Data Engineering, and Security teams"
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services (TCS)",
+      "period": "2018 - 2023",
+      "role": "System Engineer (AWS Cloud) | Support Engineer",
+      "responsibilities": [
+        "Designed and deployed AWS cloud solutions, ensuring high availability, scalability, and security",
+        "Managed core AWS services including EC2, S3, VPC, IAM, Lambda, Systems Manager",
+        "Identified and resolved network security vulnerabilities, ensuring compliance with security standards",
+        "Implemented resource utilization strategies that reduced cloud expenditure",
+        "Provided L2/L3 support for cloud infrastructure, ensuring uptime and reliability",
+        "Developed scripts and automated workflows for cloud resource management"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MCA (Master of Computer Applications)",
+      "institution": "SASTRA University",
+      "period": "2018-2021"
+    },
+    {
+      "degree": "BCA (Bachelor of Computer Applications)",
+      "institution": "BVM Holy Cross College",
+      "period": "2014-2017"
+    }
+  ],
+  "certifications": [
+    "AWS Solutions Architect - Associate & Professional",
+    "AWS Data Analytics Specialty",
+    "AWS Security Specialty"
+  ],
+  "domains": ["Manufacturing", "Life Sciences", "Pharma", "Commercial"]
+}
