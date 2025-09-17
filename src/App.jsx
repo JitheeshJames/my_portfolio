@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
@@ -6,10 +7,12 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
 import ArchitectureGallery from './components/ArchitectureGallery'
+import ArchitectureDetail from './components/ArchitectureDetail'
 import Contact from './components/Contact'
 import profileData from './data/profile.json'
 
-function App() {
+// Main portfolio component (your original App content)
+function MainPortfolio() {
   return (
     <div className="min-h-screen bg-white">
       <Hero data={profileData.personal} />
@@ -39,6 +42,18 @@ function App() {
         </a>
       </motion.div>
     </div>
+  )
+}
+
+// Updated App component with routing
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainPortfolio />} />
+        <Route path="/architecture/:id" element={<ArchitectureDetail />} />
+      </Routes>
+    </Router>
   )
 }
 
