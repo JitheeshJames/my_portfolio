@@ -22,12 +22,12 @@ const Education = ({ data }) => {
       certificates: [
         {
           name: "Degree Certificate",
-          url: "/documents/mca-degree.pdf",
+          url: "/public/mca-degree.pdf",
           type: "pdf"
         },
         {
           name: "consolidated marksheet",
-          url: "/documents/consolidatedmca.pdf",
+          url: "/public/consolidatedmca.pdf",
           type: "pdf"
         }
       ],
@@ -45,7 +45,7 @@ const Education = ({ data }) => {
       certificates: [
         {
           name: "Degree Certificate",
-          url: "/documents/bca-degree.pdf",
+          url: "/public/bca-degree.pdf",
           type: "pdf"
         },
         {
