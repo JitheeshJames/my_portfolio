@@ -26,7 +26,7 @@ const Education = ({ data }) => {
           type: "pdf"
         },
         {
-          name: "Consolidated Marksheet",
+          name: "consolidated marksheet",
           url: "/documents/consolidatedmca.pdf",
           type: "pdf"
         }
@@ -38,7 +38,10 @@ const Education = ({ data }) => {
       institution: "BVM Holy Cross College",
       period: "2014-2017",
       description: "Focused on foundational computer science concepts and programming fundamentals. Developed several web applications as part of coursework.",
-      grades: "Percentage: 80%",
+      grades: "Percentage: 78%",
+      achievements: [
+        "Class Representative for Computer Applications Department"
+      ],
       certificates: [
         {
           name: "Degree Certificate",
@@ -46,8 +49,8 @@ const Education = ({ data }) => {
           type: "pdf"
         },
         {
-          name: "Consolidate Marksheet",
-          url: "/documents/consolidatedbca.pdf",
+          name: "consolidated marksheet",
+          url: "/documents/consoliadatedbca.pdf",
           type: "pdf"
         }
       ],
