@@ -17,9 +17,7 @@ const Education = ({ data }) => {
       description: "Specialized in cloud computing and distributed systems. Completed projects on AWS infrastructure and serverless architectures.",
       grades: "CGPA: 8.5/10",
       achievements: [
-        "Completed capstone project on AWS Cloud Migration",
-        "Participated in national-level coding competitions",
-        "Member of Cloud Computing Student Group"
+        "Completed capstone project on AWS Cloud Migration"
       ],
       certificates: [
         {
@@ -28,8 +26,8 @@ const Education = ({ data }) => {
           type: "pdf"
         },
         {
-          name: "AWS Cloud Project Certificate",
-          url: "/documents/aws-project-certificate.pdf",
+          name: "Consolidated Marksheet",
+          url: "/documents/consolidatedmca.pdf",
           type: "pdf"
         }
       ],
@@ -40,12 +38,7 @@ const Education = ({ data }) => {
       institution: "BVM Holy Cross College",
       period: "2014-2017",
       description: "Focused on foundational computer science concepts and programming fundamentals. Developed several web applications as part of coursework.",
-      grades: "Percentage: 78%",
-      achievements: [
-        "Class Representative for Computer Applications Department",
-        "Won first prize in college web development competition",
-        "Organized tech fest events"
-      ],
+      grades: "Percentage: 80%",
       certificates: [
         {
           name: "Degree Certificate",
@@ -53,8 +46,8 @@ const Education = ({ data }) => {
           type: "pdf"
         },
         {
-          name: "Web Development Excellence Award",
-          url: "/documents/web-dev-award.pdf",
+          name: "Consolidate Marksheet",
+          url: "/documents/consolidatedbca.pdf",
           type: "pdf"
         }
       ],
